@@ -1,5 +1,6 @@
 it's a calculaor made with HTML, CSS and JavaScript.
 
 
-![calculator](https://github.com/Samuelgit3919/calculator/assets/152323187/d82e8f45-9131-4625-ae56-0d3ec27c18ab)
+![calc2](https://github.com/Samuelgit3919/calculator/assets/152323187/249f4424-2275-46e5-ac65-a8570598bc98)
+
 
