@@ -28,9 +28,9 @@ body {
     border-radius: 15px;
     background: #333333;
     color: white;
+    text-align: right;
 }
 
-input {}
 
 #keys {
     display: grid;
@@ -89,6 +89,7 @@ button {
     font-weight: bolder;
     cursor: pointer;
     color: white;
+    text-align: center;
 }
 
 button:hover {
