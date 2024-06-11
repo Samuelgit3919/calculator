@@ -1,40 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>calculator</title>
-</head>
-<body>
-    <div id="calculator">
-        <input id="display" readonly>
-        <button onclick="clearDisplay()" class="clear">C</button>
-
-    <div id="keys">
-        <button onclick="appendToDisplay('7')">7</button>
-        <button onclick="appendToDisplay('8')">8</button>
-        <button onclick="appendToDisplay('9')">9</button>
-        <button class="yellow" onclick="appendToDisplay('*')">*</button>
-
-        <button onclick="appendToDisplay('4')">4</button>
-        <button onclick="appendToDisplay('5')">5</button>
-        <button onclick="appendToDisplay('6')">6</button>
-        <button class="yellow" onclick="appendToDisplay('/')">/</button>
-
-        <button onclick="appendToDisplay('1')">1</button>
-        <button onclick="appendToDisplay('2')">2</button>
-        <button onclick="appendToDisplay('3')">3</button>
-        <button class="yellow" onclick="appendToDisplay('-')">-</button>
-
-
-        <button onclick="appendToDisplay('0')">0</button>
-        <button onclick="appendToDisplay('.')">.</button>
-        <button id="equal" onclick="calculate()">=</button>
-        <button class="yellow" onclick="appendToDisplay('+')">+</button>
-
-  </div>
-        <script src="index.js"></script>
-    </div>
-</body>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Calculator</title> 
+    <link rel="stylesheet" href="index.css"> 
+</head> 
+<body> 
+ 
+<div class="calculator"> 
+    <div id="display" class="display"> 
+        0 
+    </div> 
+    <div class="grid"> 
+        <button id="clear" class="clear-button button">C</button> 
+        <button class="number-button button">7</button> 
+        <button class="number-button button">8</button> 
+        <button class="number-button button">9</button> 
+        <button class="operator-button button">/</button> 
+        <button class="number-button button">4</button> 
+        <button class="number-button button">5</button> 
+        <button class="number-button button">6</button> 
+        <button class="operator-button button">*</button> 
+        <button class="number-button button">1</button> 
+        <button class="number-button button">2</button> 
+        <button class="number-button button">3</button> 
+        <button class="operator-button button">+</button> 
+        <button class="number-button button">0</button> 
+        <button class="number-button button">.</button> 
+        <button id="equals" class="equals-button button">=</button> 
+        <button class="operator-button button">-</button> 
+    </div> 
+</div> 
+<script src="index.js"></script> 
+</body> 
 </html>
